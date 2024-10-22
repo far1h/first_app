@@ -26,13 +26,18 @@ class GradientContainer extends StatelessWidget {
                 end: endAlignment)),
         child: Center(
             child: Column(
-              mainAxisSize: MainAxisSize.min,
+          mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset(
               'assets/images/dice-2.png',
               width: 200,
             ),
-            TextButton(onPressed: rollDice, child: const Text("Roll Dice"))
+            TextButton(
+                onPressed: rollDice,
+                style: TextButton.styleFrom(
+                    foregroundColor: Colors.white,
+                    textStyle: TextStyle(fontSize: 28)),
+                child: const Text("Roll Dice"))
           ],
         )));
     throw UnimplementedError();
