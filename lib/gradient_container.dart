@@ -21,7 +21,16 @@ class GradientContainer extends StatelessWidget {
                 colors: [color1, color2],
                 begin: startAlignment,
                 end: endAlignment)),
-        child: Center(child: Image.asset('assets/images/dice-2.png', width: 200,)));
+        child: Center(
+            child: Column(
+          children: [
+            Image.asset(
+              'assets/images/dice-2.png',
+              width: 200,
+            ),
+            
+          ],
+        )));
     throw UnimplementedError();
   }
 }
