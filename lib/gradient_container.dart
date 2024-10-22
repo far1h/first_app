@@ -13,6 +13,9 @@ class GradientContainer extends StatelessWidget {
 
   final Color color1;
   final Color color2;
+
+  void rollDice() {}
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -28,7 +31,7 @@ class GradientContainer extends StatelessWidget {
               'assets/images/dice-2.png',
               width: 200,
             ),
-            
+            TextButton(onPressed: rollDice, child: const Text("Roll Dice"))
           ],
         )));
     throw UnimplementedError();
