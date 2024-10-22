@@ -1,3 +1,5 @@
-void main () {
-runApp();
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp();
 }
