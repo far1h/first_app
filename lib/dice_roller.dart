@@ -1,4 +1,3 @@
-import 'package:first_app/gradient_container.dart';
 import 'package:flutter/material.dart';
 
 class DiceRoller extends StatefulWidget {
